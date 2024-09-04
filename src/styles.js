@@ -1,0 +1,91 @@
+const styles = {
+  container: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    backgroundColor: '#f5f5f5',
+    fontFamily: 'Poppins, sans-serif',
+  },
+  form: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    padding: '30px',
+    borderRadius: '8px',
+    backgroundColor: '#fff',
+    boxShadow: '0px 6px 16px rgba(0, 0, 0, 0.1)',
+    width: '400px',
+  },
+  header: {
+    marginBottom: '20px',
+    fontSize: '28px',
+    fontWeight: '600',
+    color: '#333',
+  },
+  label: {
+    alignSelf: 'flex-start',
+    marginBottom: '8px',
+    fontSize: '16px',
+    fontWeight: '500',
+    color: '#333',
+  },
+  input: {
+    width: '100%',
+    padding: '12px',
+    marginBottom: '15px',
+    borderRadius: '6px',
+    border: '1px solid #ddd',
+    fontSize: '14px',
+    outline: 'none',
+    transition: 'border-color 0.3s ease',
+  },
+  inputFocus: {
+    borderColor: '#9b2fff',
+    boxShadow: '0 0 0 2px rgba(155, 86, 240, 0.3)',
+  },
+  phoneNumber: {
+    padding: '12px',
+    borderRadius: '6px',
+    border: '1px solid #ddd',
+    fontSize: '14px',
+    outline: 'none',
+    transition: 'border-color 0.3s ease',
+  },
+  checkboxContainer: {
+    width: '100%',
+    marginBottom: '15px',
+  },
+  checkbox: {
+    marginRight: '10px',
+  },
+  submitButton: {
+    width: '100%',
+    padding: '12px',
+    backgroundImage: 'linear-gradient(to right, #9b2fff, #ec4899, #f56565)',
+    color: '#fff',
+    border: 'none',
+    borderRadius: '30px',
+    cursor: 'pointer',
+    boxShadow: '0px 6px 16px rgba(0, 0, 0, 0.2)',
+    transition: 'background-color 0.3s ease, transform 0.2s ease',
+    fontSize: '16px',
+    fontWeight: '500',
+  },
+  submitButtonHover: {
+    backgroundColor: '#444',
+    transform: 'scale(1.05)',
+  },
+  signInText: {
+    fontSize: '14px',
+    marginBottom: '10px',
+    color: '#555',
+  },
+  or: {
+    fontSize: '12px',
+    marginBottom: '15px',
+    color: '#aaa',
+  },
+};
+
+export default styles;
