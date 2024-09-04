@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="form-container" style={styles.container}>
       <form style={styles.form}>
-        <h2 style={styles.header}>Sign up</h2>
+        <h2 style={styles.header}>Contact us</h2>
 
         <label style={styles.label}>Full name</label>
         <input type="text" placeholder="Enter your name" style={styles.input} />
